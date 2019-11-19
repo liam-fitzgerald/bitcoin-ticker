@@ -1,0 +1,35 @@
+[23:48:0.510] Global cache location '/Users/liamfitzgerald/Library/Caches/typescript/3.7', safe file path '/users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/typescript/lib/typingsafelist.json', types map path /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/typescript/lib/typesmap.json
+[23:48:0.511] Processing cache location '/Users/liamfitzgerald/Library/Caches/typescript/3.7'
+[23:48:0.512] Trying to find '/Users/liamfitzgerald/Library/Caches/typescript/3.7/package.json'...
+[23:48:0.512] Finished processing cache location '/Users/liamfitzgerald/Library/Caches/typescript/3.7'
+[23:48:0.513] Process id: 88674
+[23:48:0.513] NPM location: /usr/local/Cellar/node/12.4.0/bin/npm (explicit '--npmLocation' not  provided)
+[23:48:0.513] validateDefaultNpmLocation: false
+[23:48:0.513] Npm config file: /Users/liamfitzgerald/Library/Caches/typescript/3.7/package.json
+[23:48:0.513] Updating types-registry npm package...
+[23:48:0.513] Exec: /usr/local/Cellar/node/12.4.0/bin/npm install --ignore-scripts types-registry@latest
+[23:48:0.524]     Failed. stdout:
+    
+    stderr:
+    /bin/sh: /usr/local/Cellar/node/12.4.0/bin/npm: No such file or directory
+    
+[23:48:0.524] Updated types-registry npm package
+[23:48:0.524] Types registry file '/Users/liamfitzgerald/Library/Caches/typescript/3.7/node_modules/types-registry/index.json' does not exist
+[23:48:1.781] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/Users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/typescript/lib/lib.d.ts","/Users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/typescript/lib/lib.es5.d.ts","/Users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/typescript/lib/lib.dom.d.ts","/Users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/Users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/liamfitzgerald/dev/urbit/bitcoin-ticker/tile/tile.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["classnames","lodash","object-assign","prop-types","react"],"projectRootPath":"/users/liamfitzgerald/dev/urbit/bitcoin-ticker/tile","kind":"discover"}
+[23:48:1.799] Loaded safelist from types map file '/users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/typescript/lib/typesmap.json'
+[23:48:1.800] Explicitly included types: []
+[23:48:1.801] Inferred typings from unresolved imports: ["classnames","lodash","object-assign","prop-types","react"]
+[23:48:1.801] Result: {"cachedTypingPaths":[],"newTypingNames":["classnames","lodash","object-assign","prop-types","react"],"filesToWatch":["/Users/liamfitzgerald/dev/urbit/bitcoin-ticker/tile/bower_components","/Users/liamfitzgerald/dev/urbit/bitcoin-ticker/tile/node_modules","/users/liamfitzgerald/dev/urbit/bitcoin-ticker/tile/bower_components","/users/liamfitzgerald/dev/urbit/bitcoin-ticker/tile/node_modules"]}
+[23:48:1.801] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["classnames","lodash","object-assign","prop-types","react"],"filesToWatch":["/Users/liamfitzgerald/dev/urbit/bitcoin-ticker/tile/bower_components","/Users/liamfitzgerald/dev/urbit/bitcoin-ticker/tile/node_modules","/users/liamfitzgerald/dev/urbit/bitcoin-ticker/tile/bower_components","/users/liamfitzgerald/dev/urbit/bitcoin-ticker/tile/node_modules"]}
+[23:48:1.802] DirectoryWatcher:: Added:: WatchInfo: /Users/liamfitzgerald/dev/urbit/bitcoin-ticker/tile/bower_components
+[23:48:1.803] DirectoryWatcher:: Added:: WatchInfo: /Users/liamfitzgerald/dev/urbit/bitcoin-ticker/tile/node_modules
+[23:48:1.803] Installing typings ["classnames","lodash","object-assign","prop-types","react"]
+[23:48:1.803] 'classnames':: Entry for package 'classnames' does not exist in local types registry - skipping...
+[23:48:1.803] 'lodash':: Entry for package 'lodash' does not exist in local types registry - skipping...
+[23:48:1.804] 'object-assign':: Entry for package 'object-assign' does not exist in local types registry - skipping...
+[23:48:1.804] 'prop-types':: Entry for package 'prop-types' does not exist in local types registry - skipping...
+[23:48:1.804] 'react':: Entry for package 'react' does not exist in local types registry - skipping...
+[23:48:1.804] All typings are known to be missing or invalid - no need to install more typings
+[23:48:1.804] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["classnames","lodash","object-assign","prop-types","react"],"kind":"action::set"}
+[23:48:1.805] Response has been sent.

@@ -4,7 +4,7 @@
 /=  tile-js
   /^  octs
   /;  as-octs:mimes:html
-  /:  /===/app/%APPNAME%/js/tile
+  /:  /===/app/btc/js/tile
   /|  /js/
       /~  ~
   ==
@@ -25,11 +25,16 @@
       [%http-response =http-event:http]
       [%connect wire binding:eyre term]
       [%diff %json json]
+      [%wait wire @da]
+      [%request wire request:http outbound-config:iris]
+  ==
++$  state
+  $%  [%0 price=@ta timer=(unit @da)]
   ==
 ::
 --
 ::
-|_  [bol=bowl:gall ~]
+|_  [bol=bowl:gall sta=state]
 :: "this" is a shorthand for returning the state.
 ++  this  .
 ::
@@ -42,33 +47,37 @@
 :: the unique path to subscribe to our app (where to send JSON to the tile) and the path the tile's served on.
 :: The launch app expects window.[appNameTile] to contain the JS class for the tile (see tile/tile.js:47).
 ++  prep
-  |=  old=(unit ~)
+  |=  old=(unit *)
   ^-  (quip move _this)
+  ~&  "> launched"
   =/  launcha
-    [%launch-action [%%APPNAME% /%APPNAME%tile '/~%APPNAME%/js/tile.js']]
-  :_  this
-  :~  [ost.bol %connect / [~ /'~%APPNAME%'] %%APPNAME%]
-      [ost.bol %poke /%APPNAME% [our.bol %launch] launcha]
+    [%launch-action [%btc /btctile '/~btc/js/tile.js']]
+  :_  this(sta *state)
+  :~  [ost.bol %connect / [~ /'~btc'] %btc]
+      [ost.bol %poke /btc [our.bol %launch] launcha]
+      [ost.bol %request /apireq request-btc *outbound-config:iris]
   ==
 ::
-:: peer-%APPNAME%tile allows other apps (or the wider internet) to subscribe to this app.
+:: peer-btctile allows other apps (or the wider internet) to subscribe to this app.
 :: In this example, it sends "our.bol" (our ship's name) as a JSON string to our React.js file.
 :: If you have nothing to send to the tile -- if the tile has nothing to receive from your ship --
 :: you'll want to "bunt" (sending a blank with *) the JSON: delete line 62 and replace line 63 with
 :: [[ost.bol %diff %json *json]~ this]
 ::
-++  peer-%APPNAME%tile
+++  peer-btctile
   |=  pax=path
   ^-  (quip move _this)
-  =/  jon=json  [%s (crip (scow %p our.bol))]
+  =/  jon=json  (pairs:enjs:format [price+n+price.sta ~])
   [[ost.bol %diff %json jon]~ this]
 
 :: When this arm is called from this application, 
 :: it sends moves to every subscriber of this application's unique path.
-++  send-tile-diff
-  |=  jon=json
+++  send-price-diff
+  |=  price=@ta
   ^-  (list move)
-  %+  turn  (prey:pubsub:userlib /%APPNAME%tile bol)
+  =/  jon=json
+    (pairs:enjs:format [price+n+price ~])
+  %+  turn  (prey:pubsub:userlib /btctile bol)
   |=  [=bone ^]
   [bone %diff %json jon]
 ::
@@ -90,4 +99,62 @@
     [[ost.bol %http-response (js-response:app tile-js)]~ this]
   [[ost.bol %http-response not-found:app]~ this]
 ::
+++  http-response
+  |=  [=wire response=client-response:iris]
+  ^-  (quip move _this)
+  ::  ignore all but %finished
+  ?.  ?=(%finished -.response)
+    [~ this]
+  =/  data/(unit mime-data:iris)  full-file.response
+  ?~  data
+    [~ this]
+  =/  ujon/(unit json)  (de-json:html q.data.u.data)
+  ?~  ujon
+    [~ this]
+  ?>  ?=(%o -.u.ujon)
+  =/  currency=json
+    (~(got by p.u.ujon) 'USD')
+  ?>  ?=(%o -.currency)
+  =/  last-item
+    (~(got by p.currency) 'last')
+  ?>  ?=(%n -.last-item)
+  :_  this(price.sta p.last-item)
+  (send-price-diff p.last-item)
+
+
+  ::  ?~  ujon
+  ::     [~ this]
+  ::  ?>  ?=(%o -.u.ujon)
+  ::  ?:  (gth 200 status-code.response-header.response)
+  ::    ~&  btc+u.ujon
+  ::    ~&  btc+location
+  ::    [~ this]
+  ::  =/  jon/json  %-  pairs:enjs:format  :~
+  ::    currently+(~(got by p.u.ujon) 'currently')
+  ::    daily+(~(got by p.u.ujon) 'daily')
+  ::  ==
+  ::  :-  (send-tile-diff jon)
+  ::  %=  this
+  ::    data  jon
+  ::    time  now.bol
+  ::  ==
+::
+++  request-btc
+  ^-  request:http
+  =/  url  'https://blockchain.info/ticker'
+  =/  hed  [['Accept' 'application/json']]~
+  [%'GET' url hed *(unit octs)]
+::
+++  wake
+  |=  [wir=wire err=(unit tang)]
+  ^-  (quip move _this)
+  =/  out  *outbound-config:iris
+  =/  next=@da  (add now.bol ~s15)
+  :_  this(timer.sta [~ next])
+  :~
+    [ost.bol %request /[(scot %da now.bol)] request-btc out]
+    [ost.bol %wait /timer next]
+  ==
+
+
 --

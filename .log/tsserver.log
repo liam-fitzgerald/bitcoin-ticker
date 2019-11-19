@@ -1,0 +1,378 @@
+Info 0    [23:48:0.331] Starting TS Server
+Info 1    [23:48:0.332] Version: 3.7.2
+Info 2    [23:48:0.332] Arguments: /usr/local/Cellar/node/12.4.0/bin/node /Users/liamfitzgerald/.nvm/versions/node/v11.15.0/bin/tsserver --logFile /Users/liamfitzgerald/dev/urbit/bitcoin-ticker/.log/tsserver.log --logVerbosity info --cancellationPipeName /private/var/folders/7w/hvrpvq7978bbb9kwkbhsn6rr0000gn/T/1a13ea3348263c4683876f10f1f2d364/tscancellation*
+Info 3    [23:48:0.332] Platform: darwin NodeVersion: 12 CaseSensitive: false
+Info 4    [23:48:0.344] Search path: /Users/liamfitzgerald/dev/urbit/bitcoin-ticker/tile
+Info 5    [23:48:0.345] For info: /Users/liamfitzgerald/dev/urbit/bitcoin-ticker/tile/tile.js :: No config files found.
+Info 6    [23:48:0.350] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 7    [23:48:1.621] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 1271ms
+Info 8    [23:48:1.621] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 9    [23:48:1.621] 	Files (84)
+
+Info 10   [23:48:1.621] -----------------------------------------------
+Info 11   [23:48:1.820] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 12   [23:48:1.877] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true Elapsed: 57ms
+Info 13   [23:48:1.877] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 14   [23:48:2.57] Structure before ensureProjectForOpenFiles:
+Info 15   [23:48:2.58] Structure after ensureProjectForOpenFiles:
+Info 16   [23:48:2.58] got projects updated in background, updating diagnostics for /Users/liamfitzgerald/dev/urbit/bitcoin-ticker/tile/tile.js
+Info 17   [23:48:5.873] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 18   [23:48:5.886] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false Elapsed: 13ms
+Info 19   [23:48:5.886] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 20   [23:48:6.314] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 21   [23:48:6.319] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false Elapsed: 5ms
+Info 22   [23:48:6.319] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 23   [23:48:7.773] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 24   [23:48:7.780] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: false Elapsed: 7ms
+Info 25   [23:48:7.780] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 26   [23:48:8.76] getCompletionData: Get current token: 0
+Info 27   [23:48:8.76] getCompletionData: Is inside comment: 0
+Info 28   [23:48:8.76] getCompletionData: Get previous token 1: 0
+Info 29   [23:48:8.77] getCompletionsAtPosition: isCompletionListBlocker: 1
+Info 30   [23:48:8.94] getCompletionData: Semantic work: 17
+Info 31   [23:48:8.95] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 32   [23:48:12.409] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 33   [23:48:12.417] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: false Elapsed: 8ms
+Info 34   [23:48:12.417] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 35   [23:48:12.626] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 36   [23:48:12.631] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 7 structureChanged: false Elapsed: 4ms
+Info 37   [23:48:12.631] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 38   [23:48:12.853] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 39   [23:48:12.858] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 8 structureChanged: false Elapsed: 5ms
+Info 40   [23:48:12.858] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 41   [23:48:12.862] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 42   [23:48:12.870] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 9 structureChanged: false Elapsed: 8ms
+Info 43   [23:48:12.870] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 44   [23:48:13.297] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 45   [23:48:13.301] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 10 structureChanged: false Elapsed: 4ms
+Info 46   [23:48:13.301] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 47   [23:48:14.153] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 48   [23:48:14.157] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 11 structureChanged: false Elapsed: 4ms
+Info 49   [23:48:14.157] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 50   [23:48:15.486] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 51   [23:48:15.491] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 12 structureChanged: false Elapsed: 5ms
+Info 52   [23:48:15.491] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 53   [23:48:16.43] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 54   [23:48:16.49] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 13 structureChanged: false Elapsed: 5ms
+Info 55   [23:48:16.49] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 56   [23:48:16.606] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 57   [23:48:16.618] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 14 structureChanged: false Elapsed: 12ms
+Info 58   [23:48:16.618] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 59   [23:48:17.194] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 60   [23:48:17.197] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 15 structureChanged: false Elapsed: 3ms
+Info 61   [23:48:17.197] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 62   [23:48:17.836] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 63   [23:48:17.844] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 16 structureChanged: false Elapsed: 8ms
+Info 64   [23:48:17.844] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 65   [23:48:18.459] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 66   [23:48:18.463] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 17 structureChanged: false Elapsed: 4ms
+Info 67   [23:48:18.464] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 68   [23:48:33.603] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 69   [23:48:33.620] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 18 structureChanged: false Elapsed: 12ms
+Info 70   [23:48:33.620] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 71   [23:48:34.27] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 72   [23:48:34.36] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 19 structureChanged: false Elapsed: 9ms
+Info 73   [23:48:34.36] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 74   [23:48:34.362] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 75   [23:48:34.371] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 20 structureChanged: false Elapsed: 9ms
+Info 76   [23:48:34.371] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 77   [23:48:34.662] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 78   [23:48:34.669] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 21 structureChanged: false Elapsed: 7ms
+Info 79   [23:48:34.669] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 80   [23:48:35.328] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 81   [23:48:35.334] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 22 structureChanged: false Elapsed: 6ms
+Info 82   [23:48:35.334] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 83   [23:48:36.192] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 84   [23:48:36.199] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 23 structureChanged: false Elapsed: 7ms
+Info 85   [23:48:36.199] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 86   [23:48:44.878] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 87   [23:48:44.883] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 24 structureChanged: false Elapsed: 5ms
+Info 88   [23:48:44.883] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 89   [23:48:45.203] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 90   [23:48:45.207] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 25 structureChanged: false Elapsed: 4ms
+Info 91   [23:48:45.207] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 92   [23:48:45.448] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 93   [23:48:45.453] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 26 structureChanged: false Elapsed: 5ms
+Info 94   [23:48:45.453] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 95   [23:48:45.829] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 96   [23:48:45.835] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 27 structureChanged: false Elapsed: 6ms
+Info 97   [23:48:45.835] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 98   [23:48:46.393] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 99   [23:48:46.399] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 28 structureChanged: false Elapsed: 6ms
+Info 100  [23:48:46.399] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 101  [23:49:16.920] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 102  [23:49:16.925] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 29 structureChanged: false Elapsed: 4ms
+Info 103  [23:49:16.925] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 104  [23:49:17.584] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 105  [23:49:17.589] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 30 structureChanged: false Elapsed: 5ms
+Info 106  [23:49:17.589] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 107  [23:49:18.78] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 108  [23:49:18.83] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 31 structureChanged: false Elapsed: 5ms
+Info 109  [23:49:18.83] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 110  [23:49:18.382] getCompletionData: Get current token: 0
+Info 111  [23:49:18.382] getCompletionData: Is inside comment: 0
+Info 112  [23:49:18.382] getCompletionData: Get previous token 1: 0
+Info 113  [23:49:18.382] getCompletionData: Get previous token 2: 0
+Info 114  [23:49:18.383] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 115  [23:49:18.384] getCompletionData: Semantic work: 1
+Info 116  [23:49:18.385] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1
+Info 117  [23:49:18.551] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 118  [23:49:18.555] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 32 structureChanged: false Elapsed: 4ms
+Info 119  [23:49:18.555] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 120  [23:49:18.555] getCompletionData: Get current token: 0
+Info 121  [23:49:18.555] getCompletionData: Is inside comment: 0
+Info 122  [23:49:18.555] getCompletionData: Get previous token 1: 0
+Info 123  [23:49:18.555] getCompletionData: Get previous token 2: 0
+Info 124  [23:49:18.555] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 125  [23:49:18.568] getCompletionData: Semantic work: 13
+Info 126  [23:49:18.568] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 127  [23:49:18.657] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 128  [23:49:18.661] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 33 structureChanged: false Elapsed: 4ms
+Info 129  [23:49:18.661] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 130  [23:49:18.661] getCompletionData: Get current token: 0
+Info 131  [23:49:18.661] getCompletionData: Is inside comment: 0
+Info 132  [23:49:18.662] getCompletionData: Get previous token 1: 1
+Info 133  [23:49:18.662] getCompletionData: Get previous token 2: 0
+Info 134  [23:49:18.662] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 135  [23:49:18.672] getCompletionData: Semantic work: 10
+Info 136  [23:49:18.672] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 137  [23:49:18.812] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 138  [23:49:18.815] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 34 structureChanged: false Elapsed: 3ms
+Info 139  [23:49:18.815] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 140  [23:49:18.815] getCompletionData: Get current token: 0
+Info 141  [23:49:18.815] getCompletionData: Is inside comment: 0
+Info 142  [23:49:18.815] getCompletionData: Get previous token 1: 0
+Info 143  [23:49:18.815] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 144  [23:49:18.825] getCompletionData: Semantic work: 10
+Info 145  [23:49:18.825] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 146  [23:49:19.348] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 147  [23:49:19.352] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 35 structureChanged: false Elapsed: 4ms
+Info 148  [23:49:19.352] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 149  [23:49:19.353] getCompletionData: Get current token: 0
+Info 150  [23:49:19.353] getCompletionData: Is inside comment: 0
+Info 151  [23:49:19.353] getCompletionData: Get previous token 1: 0
+Info 152  [23:49:19.353] getCompletionData: Get previous token 2: 0
+Info 153  [23:49:19.353] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 154  [23:49:19.366] getCompletionData: Semantic work: 13
+Info 155  [23:49:19.366] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 156  [23:49:19.424] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 157  [23:49:19.432] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 36 structureChanged: false Elapsed: 8ms
+Info 158  [23:49:19.432] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 159  [23:49:19.433] getCompletionData: Get current token: 0
+Info 160  [23:49:19.433] getCompletionData: Is inside comment: 0
+Info 161  [23:49:19.433] getCompletionData: Get previous token 1: 0
+Info 162  [23:49:19.433] getCompletionData: Get previous token 2: 0
+Info 163  [23:49:19.433] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 164  [23:49:19.448] getCompletionData: Semantic work: 15
+Info 165  [23:49:19.449] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1
+Info 166  [23:49:19.652] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 167  [23:49:19.657] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 37 structureChanged: false Elapsed: 5ms
+Info 168  [23:49:19.657] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 169  [23:49:19.657] getCompletionData: Get current token: 0
+Info 170  [23:49:19.657] getCompletionData: Is inside comment: 0
+Info 171  [23:49:19.657] getCompletionData: Get previous token 1: 0
+Info 172  [23:49:19.657] getCompletionData: Get previous token 2: 0
+Info 173  [23:49:19.657] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 174  [23:49:19.672] getCompletionData: Semantic work: 15
+Info 175  [23:49:19.673] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1
+Info 176  [23:49:19.961] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 177  [23:49:19.965] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 38 structureChanged: false Elapsed: 4ms
+Info 178  [23:49:19.965] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 179  [23:49:20.265] getCompletionData: Get current token: 0
+Info 180  [23:49:20.265] getCompletionData: Is inside comment: 0
+Info 181  [23:49:20.265] getCompletionData: Get previous token 1: 0
+Info 182  [23:49:20.265] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 183  [23:49:20.274] getCompletionData: Semantic work: 9
+Info 184  [23:49:20.274] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 185  [23:49:20.911] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 186  [23:49:20.916] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 39 structureChanged: false Elapsed: 5ms
+Info 187  [23:49:20.916] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 188  [23:49:20.938] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 189  [23:49:20.942] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 40 structureChanged: false Elapsed: 4ms
+Info 190  [23:49:20.942] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 191  [23:49:20.943] getCompletionData: Get current token: 0
+Info 192  [23:49:20.943] getCompletionData: Is inside comment: 0
+Info 193  [23:49:20.943] getCompletionData: Get previous token 1: 0
+Info 194  [23:49:20.944] getCompletionData: Get previous token 2: 1
+Info 195  [23:49:20.944] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 196  [23:49:20.954] getCompletionData: Semantic work: 10
+Info 197  [23:49:20.955] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 198  [23:49:21.122] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 199  [23:49:21.125] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 41 structureChanged: false Elapsed: 3ms
+Info 200  [23:49:21.125] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 201  [23:49:21.126] getCompletionData: Get current token: 0
+Info 202  [23:49:21.126] getCompletionData: Is inside comment: 0
+Info 203  [23:49:21.126] getCompletionData: Get previous token 1: 0
+Info 204  [23:49:21.126] getCompletionData: Get previous token 2: 0
+Info 205  [23:49:21.126] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 206  [23:49:21.137] getCompletionData: Semantic work: 11
+Info 207  [23:49:21.137] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 208  [23:49:21.210] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 209  [23:49:21.215] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 42 structureChanged: false Elapsed: 5ms
+Info 210  [23:49:21.215] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 211  [23:49:21.215] getCompletionData: Get current token: 0
+Info 212  [23:49:21.215] getCompletionData: Is inside comment: 0
+Info 213  [23:49:21.215] getCompletionData: Get previous token 1: 0
+Info 214  [23:49:21.215] getCompletionData: Get previous token 2: 0
+Info 215  [23:49:21.215] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 216  [23:49:21.224] getCompletionData: Semantic work: 9
+Info 217  [23:49:21.224] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 218  [23:49:21.889] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 219  [23:49:21.893] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 43 structureChanged: false Elapsed: 4ms
+Info 220  [23:49:21.893] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 221  [23:49:22.193] getCompletionData: Get current token: 0
+Info 222  [23:49:22.193] getCompletionData: Is inside comment: 0
+Info 223  [23:49:22.193] getCompletionData: Get previous token 1: 0
+Info 224  [23:49:22.193] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 225  [23:49:22.204] getCompletionData: Semantic work: 11
+Info 226  [23:49:22.204] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 227  [23:49:23.296] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 228  [23:49:23.300] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 44 structureChanged: false Elapsed: 4ms
+Info 229  [23:49:23.300] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 230  [23:49:23.300] getCompletionData: Get current token: 0
+Info 231  [23:49:23.300] getCompletionData: Is inside comment: 0
+Info 232  [23:49:23.300] getCompletionData: Get previous token 1: 0
+Info 233  [23:49:23.300] getCompletionData: Get previous token 2: 0
+Info 234  [23:49:23.301] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 235  [23:49:23.315] getCompletionData: Semantic work: 14
+Info 236  [23:49:23.315] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 237  [23:49:23.437] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 238  [23:49:23.441] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 45 structureChanged: false Elapsed: 4ms
+Info 239  [23:49:23.441] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 240  [23:49:23.441] getCompletionData: Get current token: 0
+Info 241  [23:49:23.441] getCompletionData: Is inside comment: 0
+Info 242  [23:49:23.441] getCompletionData: Get previous token 1: 0
+Info 243  [23:49:23.441] getCompletionData: Get previous token 2: 0
+Info 244  [23:49:23.442] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 245  [23:49:23.453] getCompletionData: Semantic work: 11
+Info 246  [23:49:23.453] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 247  [23:49:23.594] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 248  [23:49:23.598] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 46 structureChanged: false Elapsed: 4ms
+Info 249  [23:49:23.598] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 250  [23:49:23.599] getCompletionData: Get current token: 0
+Info 251  [23:49:23.599] getCompletionData: Is inside comment: 0
+Info 252  [23:49:23.599] getCompletionData: Get previous token 1: 0
+Info 253  [23:49:23.599] getCompletionData: Get previous token 2: 0
+Info 254  [23:49:23.599] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 255  [23:49:23.608] getCompletionData: Semantic work: 9
+Info 256  [23:49:23.608] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 257  [23:49:56.472] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 258  [23:49:56.480] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 47 structureChanged: false Elapsed: 7ms
+Info 259  [23:49:56.480] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 260  [23:49:56.961] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 261  [23:49:56.969] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 48 structureChanged: false Elapsed: 8ms
+Info 262  [23:49:56.969] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 263  [23:49:57.320] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 264  [23:49:57.327] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 49 structureChanged: false Elapsed: 7ms
+Info 265  [23:49:57.327] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 266  [23:49:57.895] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 267  [23:49:57.900] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 50 structureChanged: false Elapsed: 5ms
+Info 268  [23:49:57.900] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 269  [23:50:0.266] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 270  [23:50:0.272] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 51 structureChanged: false Elapsed: 6ms
+Info 271  [23:50:0.272] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 272  [23:50:1.30] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 273  [23:50:1.35] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 52 structureChanged: false Elapsed: 5ms
+Info 274  [23:50:1.35] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 275  [23:50:1.800] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 276  [23:50:1.804] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 53 structureChanged: false Elapsed: 4ms
+Info 277  [23:50:1.804] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 278  [23:50:3.419] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 279  [23:50:3.430] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 54 structureChanged: false Elapsed: 5ms
+Info 280  [23:50:3.430] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 281  [23:50:4.24] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 282  [23:50:4.29] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 55 structureChanged: false Elapsed: 5ms
+Info 283  [23:50:4.29] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 284  [23:50:4.836] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 285  [23:50:4.841] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 56 structureChanged: false Elapsed: 5ms
+Info 286  [23:50:4.841] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 287  [23:50:5.193] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 288  [23:50:5.202] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 57 structureChanged: false Elapsed: 9ms
+Info 289  [23:50:5.202] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 290  [23:50:5.792] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 291  [23:50:5.798] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 58 structureChanged: false Elapsed: 6ms
+Info 292  [23:50:5.798] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 293  [23:50:10.193] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 294  [23:50:10.200] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 59 structureChanged: false Elapsed: 7ms
+Info 295  [23:50:10.200] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 296  [23:50:10.997] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 297  [23:50:11.1] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 60 structureChanged: false Elapsed: 4ms
+Info 298  [23:50:11.1] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 299  [23:50:11.312] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 300  [23:50:11.316] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 61 structureChanged: false Elapsed: 4ms
+Info 301  [23:50:11.316] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 302  [23:50:30.255] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 303  [23:50:30.255] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 304  [23:50:30.255] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5 :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 305  [23:50:30.255] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5 :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 306  [23:50:30.256] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/bin-prettier.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 307  [23:50:30.256] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/bin-prettier.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 308  [23:50:30.256] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/LICENSE :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 309  [23:50:30.256] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/LICENSE :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 310  [23:50:30.501] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/bin-prettier.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 311  [23:50:30.501] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/bin-prettier.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 312  [23:50:30.501] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/index.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 313  [23:50:30.501] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/index.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 314  [23:50:30.501] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/doc.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 315  [23:50:30.501] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/doc.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 316  [23:50:30.746] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-angular.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 317  [23:50:30.746] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-angular.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 318  [23:50:30.747] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/index.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 319  [23:50:30.747] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/index.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 320  [23:50:30.796] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-angular.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 321  [23:50:30.796] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-angular.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 322  [23:50:30.796] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-flow.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 323  [23:50:30.796] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-flow.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 324  [23:50:30.797] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-babylon.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 325  [23:50:30.797] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-babylon.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 326  [23:50:30.957] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-glimmer.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 327  [23:50:30.957] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-glimmer.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 328  [23:50:30.957] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-flow.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 329  [23:50:30.957] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-flow.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 330  [23:50:31.7] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-glimmer.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 331  [23:50:31.7] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-glimmer.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 332  [23:50:31.8] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-html.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 333  [23:50:31.8] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-html.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 334  [23:50:31.8] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-graphql.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 335  [23:50:31.8] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-graphql.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 336  [23:50:31.58] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-markdown.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 337  [23:50:31.58] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-markdown.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 338  [23:50:31.58] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-html.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 339  [23:50:31.58] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-html.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 340  [23:50:31.172] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-markdown.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 341  [23:50:31.172] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-markdown.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 342  [23:50:31.172] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-typescript.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 343  [23:50:31.172] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-typescript.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 344  [23:50:31.172] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-postcss.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 345  [23:50:31.172] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-postcss.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 346  [23:50:31.609] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-yaml.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 347  [23:50:31.609] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-yaml.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 348  [23:50:31.609] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-typescript.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 349  [23:50:31.609] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-typescript.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 350  [23:50:31.660] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-yaml.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 351  [23:50:31.660] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/parser-yaml.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 352  [23:50:31.660] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/standalone.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 353  [23:50:31.660] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/standalone.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 354  [23:50:31.807] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/third-party.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 355  [23:50:31.807] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/third-party.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 356  [23:50:31.807] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/standalone.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 357  [23:50:31.807] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/standalone.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 358  [23:50:31.858] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/third-party.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 359  [23:50:31.858] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/third-party.js :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 360  [23:50:31.858] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/package.json :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 361  [23:50:31.858] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/package.json :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 362  [23:50:31.858] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/README.md :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 363  [23:50:31.858] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5/README.md :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 364  [23:50:31.858] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5 :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 365  [23:50:31.858] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging/prettier-e32a9cc5 :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 366  [23:50:31.858] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/prettier :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 367  [23:50:31.858] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/prettier :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 368  [23:50:31.908] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/prettier/package.json.654539636 :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 369  [23:50:31.908] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/prettier/package.json.654539636 :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 370  [23:50:31.908] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/prettier/package.json :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 371  [23:50:31.908] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/prettier/package.json :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 372  [23:50:31.908] DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 373  [23:50:31.908] Elapsed:: 0ms DirectoryWatcher:: Triggered with /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules/.staging :: WatchInfo: /users/liamfitzgerald/.nvm/versions/node/v11.15.0/lib/node_modules 1 Project:  WatchType: node_modules for closed script infos in them
+Info 374  [23:50:34.997] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 375  [23:50:35.3] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 62 structureChanged: false Elapsed: 6ms
+Info 376  [23:50:35.3] Different program with same set of files:: oldProgram.structureIsReused:: 2
